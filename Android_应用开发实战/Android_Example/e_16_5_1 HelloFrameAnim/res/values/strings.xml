@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HelloFrameAnim!</string>
+    <string name="app_name">e_16_5_1 HelloFrameAnim</string>
+    <string name="click_me_to_stop">按我\n停止</string>
+	<string name="click_me_to_start">按我\n開始</string>
+</resources>

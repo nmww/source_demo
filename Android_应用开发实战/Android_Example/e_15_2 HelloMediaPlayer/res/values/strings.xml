@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HelloMediaPlayer!</string>
+    <string name="app_name">e_15_2 HelloMediaPlayer</string><string name="app_name_audio">e_15_2 MediaPlayerAudio</string><string name="app_name_video">e_15_2 MediaPlayerVideo</string>
+</resources>

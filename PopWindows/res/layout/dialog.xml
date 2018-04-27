@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:Android="http://schemas.android.com/apk/res/android"
+    Android:layout_width="fill_parent"
+    Android:layout_height="fill_parent"
+    Android:orientation="vertical" >
+<!-- PopupWindow 视图对话框自定义 -->
+    <TextView
+        Android:id="@+id/tv_tip"
+        Android:layout_width="fill_parent"
+        Android:layout_height="wrap_content"
+        Android:text="请输入内容：" />
+
+    <EditText
+        Android:id="@+id/et_text"
+        Android:layout_width="fill_parent"
+        Android:layout_height="wrap_content" >
+    </EditText>
+
+    <LinearLayout
+        Android:layout_width="fill_parent"
+        Android:layout_height="fill_parent"
+        Android:gravity="center_horizontal" >
+
+        <Button
+            Android:id="@+id/bt_ok"
+            Android:layout_width="100px"
+            Android:layout_height="50px"
+            Android:text="确定" />
+
+        <Button
+            Android:id="@+id/bt_cancle"
+            Android:layout_width="100px"
+            Android:layout_height="50px"
+            Android:text="取消" />
+    </LinearLayout>
+
+</LinearLayout>

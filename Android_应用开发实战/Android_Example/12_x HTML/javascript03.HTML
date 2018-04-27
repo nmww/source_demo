@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title>Google Translation</title>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+google.load("language", "1");
+function translate() {
+  var source = document.getElementById("source").value;
+  google.language.detect(source, function(result) {
+    if (result.error) {
+      alert(result.message);
+    } else {
+      var list = document.getElementById("language");
+      var language = list.options[list.selectedIndex].value;
+      google.language.translate(
+        source,
+        result.language,
+        language,
+        function(result) {
+          if (result.error) {
+            alert(result.message);
+          } else {
+            alert(result.translation);
+          }
+        });
+    }
+  });
+}
+</script>
+</head>
+<body>
+<textarea id="source"></textarea><br>
+<select id="language">
+  <option value="ja" selected>Japanese</option>
+  <option value="en">English</option>
+  <option value="zh">Chinese</option>
+</select>
+<button onclick="translate()">Transfer</button>
+</body>
+</html>

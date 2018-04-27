@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SurfaceView!</string>
+    <string name="app_name">e_17_1 SurfaceView</string><string name="app_name_click">e_17_1 Click SurfaceView</string><string name="app_name_hello">e_17_1 Hello SurfaceView</string><string name="app_name_antialias">e_17_1 Anti-Alias SurfaceView</string><string name="app_name_game_view">e_17_1 Game View</string><string name="app_name_game_surfaceview">e_17_1 Game SurfaceView</string><string name="app_name_game_bitmap">e_17_1 Game BitmapDrawable</string><string name="app_name_save">e_17_1 Save and Restore</string><string name="app_name_keyevent">e_17_1 KeyEvent SurfaceView</string><string name="app_name_touch">e_17_1 Touch and trackball Event </string><string name="app_name_transparent">e_17_1 Transparent SurfaceView</string><string name="app_name_translucent">e_17_1 Translucent SurfaceView</string><string name="app_name_translucentview">e_17_1 Translucent View</string>
+
+</resources>

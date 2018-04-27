@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/search_bg"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/searchRadioGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/searchRadioShare"
+            style="@style/CustomLeftRadioBtn"
+            android:layout_weight="1"
+            android:tag="radio_button0"
+            android:text="搜索微博"
+            android:textSize="17.0sp" >
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/searchRadioUser"
+            style="@style/CustomRightRadioBtn"
+            android:layout_weight="1"
+            android:tag="radio_button1"
+            android:text="搜索用户"
+            android:textSize="17.0sp" >
+        </RadioButton>
+    </RadioGroup>
+
+</LinearLayout>

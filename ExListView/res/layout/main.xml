@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- A view that shows items in a vertically scrolling two-level list.
+     This differs from the ListView by allowing two levels: 
+     groups which can individually be expanded to show its children. 
+     The items come from the ExpandableListAdapter associated with this view. -->
+
+    <ExpandableListView
+        android:id="@+id/list"
+        android:layout_width="200dp"
+        android:layout_height="500dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/default_bg" />
+
+</RelativeLayout>

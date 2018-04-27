@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+    <TextView android:layout_width="fill_parent" 
+      android:layout_height="wrap_content" 
+      android:id="@+id/TextView01" 
+      android:text="Main传送下列信息给Chatter activity"/>
+    <EditText android:text="" 
+      android:id="@+id/EditText01" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" />
+    <TextView android:id="@+id/TextView02" android:layout_height="wrap_content" android:text="等Chatter回应，显示来自Chatter信息" android:layout_width="fill_parent"></TextView><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/Button01" android:text="Go!" />
+</LinearLayout>

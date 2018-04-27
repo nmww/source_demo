@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/1000phone/!svn/ver/355/android/trunk/projects/samples/Animation/Animation1/res/anim
+END
+alpha_animation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1000phone/!svn/ver/355/android/trunk/projects/samples/Animation/Animation1/res/anim/alpha_animation.xml
+END
+scale_animation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1000phone/!svn/ver/355/android/trunk/projects/samples/Animation/Animation1/res/anim/scale_animation.xml
+END
+translate_animation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/1000phone/!svn/ver/355/android/trunk/projects/samples/Animation/Animation1/res/anim/translate_animation.xml
+END
+rotate_animation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/1000phone/!svn/ver/355/android/trunk/projects/samples/Animation/Animation1/res/anim/rotate_animation.xml
+END

@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title>JavaScript sample #5</title>
+<script type="text/javascript">
+function ok() {
+  android.js(document.forms[0].elements[0].value, document.forms[0].elements[1].value);
+}
+</script>
+</head>
+<body>
+<form>Action:<select>
+  <option value="android.intent.action.VIEW" selected>android.intent.action.VIEW</option>
+  <option value="android.intent.action.WEB_SEARCH">android.intent.action.WEB_SEARCH</option>
+  <option value="android.intent.action.CALL">android.intent.action.CALL</option>
+  <option value="android.intent.action.DIAL">android.intent.action.DIAL</option>
+</select><br>
+URI:<input size="20" type="text"> <input type="button" value="OK" onclick="ok()"></form>
+</body>
+</html>

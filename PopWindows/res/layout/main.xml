@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:Android="http://schemas.android.com/apk/res/android"
+    Android:id="@+id/layout"
+    Android:layout_width="fill_parent"
+    Android:layout_height="fill_parent"
+    Android:orientation="vertical" >
+
+    <!-- 标题名字    PopupWindow输入的信息在这里显示`-->
+
+    <TextView
+        Android:id="@+id/tv_showText"
+        Android:layout_width="fill_parent"
+        Android:layout_height="wrap_content"
+        Android:gravity="center"
+        Android:text="@string/hello"
+        Android:textSize="22px" />
+    <!-- 四个Button启动不同的PopupWindow  靠山Anchor -->
+
+    <Button
+        Android:id="@+id/bt_PopupWindow1"
+        Android:layout_width="fill_parent"
+        Android:layout_height="wrap_content"
+        Android:text="以自己为Anchor，不偏移" />
+
+    <Button
+        Android:id="@+id/bt_PopupWindow2"
+        Android:layout_width="fill_parent"
+        Android:layout_height="wrap_content"
+        Android:text="以自己为Anchor，正下方" />
+
+    <Button
+        Android:id="@+id/bt_PopupWindow3"
+        Android:layout_width="fill_parent"
+        Android:layout_height="wrap_content"
+        Android:text="以屏幕中心为参照，不偏移（正中间）" />
+
+    <Button
+        Android:id="@+id/bt_PopupWindow4"
+        Android:layout_width="fill_parent"
+        Android:layout_height="wrap_content"
+        Android:text="以屏幕下方为参照，下方中间" />
+
+</LinearLayout>

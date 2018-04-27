@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/childlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" 
+	    android:background="@drawable/bottombutton_bg">
+
+    <ImageView
+        android:id="@+id/child_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dip"
+        android:paddingTop="10dip" >
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/child_image_online"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+               />
+
+            <TextView
+                android:id="@+id/child_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:text=""
+                android:textSize="16dip" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <ImageView
+                android:id="@+id/child_image_medal01"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                />
+            <ImageView
+                android:id="@+id/child_image_medal02"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                />
+            <ImageView
+                android:id="@+id/child_image_medal03"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+               />
+            <ImageView
+                android:id="@+id/child_image_medal04"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+             />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/child_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:text=""
+            android:textSize="12dip" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

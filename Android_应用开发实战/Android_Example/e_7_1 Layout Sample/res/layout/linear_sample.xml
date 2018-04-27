@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" 
+  android:orientation="vertical">
+	<LinearLayout android:id="@+id/LinearLayout01" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+		<EditText android:id="@+id/EditText01" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="Line-1-1"/>
+		<EditText android:id="@+id/EditText02" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="1" android:text="Line-1-2"/>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/LinearLayout02" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+		<EditText android:id="@+id/EditText03" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="Line-2-1"/>
+		<EditText android:id="@+id/EditText04" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="Line-2-2"/>
+		<EditText android:id="@+id/EditText05" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="Line-2-3"/>
+	</LinearLayout>
+</LinearLayout>

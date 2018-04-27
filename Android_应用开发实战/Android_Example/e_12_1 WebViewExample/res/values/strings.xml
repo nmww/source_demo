@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">e_12_1 WebView Example</string>
+<string name="app_back">&lt;</string>
+<string name="app_forward">&gt;</string>
+<string name="app_first">&lt;&lt;</string>
+<string name="app_last">&gt;&gt;</string>
+<string name="app_clear">Clear History</string>
+<string name="app_zoomin">Zoomin</string>
+<string name="app_zoomout">Zoomout</string>
+
+
+<string name="app_infotitle">Title Info.</string>
+<string name="app_infourl">URL Info.</string>
+
+</resources>

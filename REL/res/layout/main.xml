@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <EditText 
+    android:id="@+id/text"
+    android:text=""
+    android:layout_width="50dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    />
+    
+    <Button 
+    android:id="@+id/but1"
+    android:text="centerInParent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"/>
+    
+    <Button 
+    android:id="@+id/but2"
+    android:text="centerHorizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    />
+    
+    <Button 
+    android:id="@+id/but3"
+    android:text="centerVertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    />
+    
+    <Button 
+    android:id="@+id/but4"
+    android:text="toRightOf/alignTop"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/but1" 
+    android:layout_alignTop="@id/but1"
+    />
+    
+    <Button 
+    android:id="@+id/but5"
+    android:text="above/alignRight"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@id/but3"
+    android:layout_alignRight="@id/but3"
+    />
+    
+    <Button 
+    android:id="@+id/but6"
+    android:text="alignParentBottom"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignLeft="@id/but1"
+    />
+ 	<Button 
+    android:id="@+id/but7"
+    android:text="but7"
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="80dp"
+    android:paddingBottom="30dp"
+    />
+    </RelativeLayout>

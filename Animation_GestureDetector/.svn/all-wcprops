@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/1000phone/!svn/ver/355/android/trunk/projects/samples/Animation/Animation_GestureDetector
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/1000phone/!svn/ver/355/android/trunk/projects/samples/Animation/Animation_GestureDetector/default.properties
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/1000phone/!svn/ver/355/android/trunk/projects/samples/Animation/Animation_GestureDetector/.classpath
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/1000phone/!svn/ver/355/android/trunk/projects/samples/Animation/Animation_GestureDetector/proguard.cfg
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/1000phone/!svn/ver/355/android/trunk/projects/samples/Animation/Animation_GestureDetector/.project
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/1000phone/!svn/ver/355/android/trunk/projects/samples/Animation/Animation_GestureDetector/AndroidManifest.xml
+END

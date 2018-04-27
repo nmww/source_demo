@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      android:versionCode="1"
+      android:versionName="1.0" package="com.example.android.livewallpaperhello">
+    <application android:label="@string/app_name" 
+    	android:icon="@drawable/droid_icon">
+     <service
+        android:label="@string/app_name"
+        android:name=".HelloLiveWallpaper"
+        android:permission="android.permission.BIND_WALLPAPER">
+        <intent-filter>
+            <action android:name="android.service.wallpaper.WallpaperService" />
+        </intent-filter>
+        <meta-data android:name="android.service.wallpaper" 
+        	android:resource="@xml/livewallpaper" />            
+     </service>
+	<activity android:name=".HelloLiveWallpaperSettings" 
+		android:label="@string/wallpaper_settings" 
+		android:theme="@android:style/Theme.Light.WallpaperSettings"
+		android:exported="true">
+	</activity>
+</application>
+    <uses-sdk android:minSdkVersion="7"/>
+</manifest> 

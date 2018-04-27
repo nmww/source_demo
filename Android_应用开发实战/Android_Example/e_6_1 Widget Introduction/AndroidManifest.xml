@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      android:versionCode="1"
+      android:versionName="1.0.0" package="com.example.android.widgets">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:label="@string/app_name" android:name="Widgets">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    <activity android:name="ClockActivity" android:label="@string/app_name_Clock"></activity>
+
+<activity android:name="ButtonActivity" android:label="@string/app_name_Button"></activity>
+<activity android:name="EditActivity" android:label="@string/app_name_Edit"></activity>
+<activity android:name="MiscActivity" android:label="@string/app_name_Misc"></activity>
+<activity android:name="ChronometerActivity" android:label="@string/app_name_Chronometer"></activity>
+<activity android:name="DateTimePickerActivity" android:label="@string/app_name_DateTimePicker"></activity>
+<activity android:name="GalleryActivity" android:label="@string/app_name_Gallery"></activity>
+<activity android:name="ProgressActivity" android:label="@string/app_name_Progress"></activity>
+<activity android:name="VideoActivity" android:label="@string/app_name_Video"></activity>
+<activity android:name="PopupActivity" android:label="@string/app_name_Popup"></activity>
+<activity android:name="GridActivity" android:label="@string/app_name_Grid"></activity>
+
+
+
+
+<activity android:name="SpinnerActivity" android:label="@string/app_name_Spinner"></activity>
+</application>
+</manifest> 

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_check_eg">English</string>
+    <string name="app_check_jp">Japanese</string>
+    <string name="app_pushme">按我!</string>
+    <string name="app_female">Female</string>
+    <string name="app_man">Man</string>
+    <string name="app_name">e_6_1 Widgets</string>
+	<string name="app_checkbox">按钮-[CheckBox]</string>
+	<string name="app_radiobutton">按钮-[RadioButton]</string>
+	<string name="app_registe">签到时间</string>
+	<string name="app_time">显示签到时间</string>
+	<string name="planet_prompt">请选择一个行星</string>
+	<string name="app_name_Button">e_6_1 Widgets_Button</string>
+	<string name="app_name_DateTimePicker">e_6_1 Widgets_DateTimePicker</string>
+	<string name="app_name_Clock">e_6_1 Widgets_Clock</string>
+	<string name="app_name_Chronometer">e_6_1 Widgets_Chronometer</string>
+	<string name="app_name_Edit">e_6_1 Widgets_Edit</string>
+	<string name="app_name_Gallery">e_6_1 Widgets_Gallery</string>
+	<string name="app_name_Misc">e_6_1 Widgets_Misc</string>
+	<string name="app_name_Popup">e_6_1 Widgets_Popup</string>
+	<string name="app_name_Progress">e_6_1 Widgets_Progress</string>
+	<string name="app_name_Spinner">e_6_1 Widgets_Spinner</string>
+	<string name="app_name_Video">e_6_1 Widgets_Video</string>
+	<string name="app_name_Grid">e_6_1 Widgets_Grid</string>
+</resources>
+

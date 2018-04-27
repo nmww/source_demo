@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dip"
+    android:layout_height="40dip"
+    android:orientation="vertical" 
+	    android:background="@drawable/bottombutton_bg">
+
+    <LinearLayout
+        android:layout_width="200dip"
+        android:layout_height="40dip"
+        android:layout_gravity="center_vertical" >
+
+        <LinearLayout
+            android:id="@+id/layout_013"
+            android:layout_width="fill_parent"
+            android:layout_height="40dip"
+            android:orientation="horizontal" >
+<!-- arrows image -->
+            <ImageView
+                android:id="@+id/tubiao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingTop="12dip"
+                android:visibility="visible" >
+            </ImageView>
+
+            <RelativeLayout
+                android:id="@+id/layout_013"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+<!-- Group Name (Numbers) -->
+                <TextView
+                    android:id="@+id/content_001"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textSize="26px" 
+                    >
+                </TextView></RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

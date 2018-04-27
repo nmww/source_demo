@@ -1,0 +1,22 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1265720709401
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1265720709441
+closed,view,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.internal.introview",1265720709521
+started,bundle,org.eclipse.equinox.p2.updatesite,1.0.100.v20090525,"org.eclipse.equinox.p2.updatesite",1265720710022
+started,bundle,com.android.ide.eclipse.ddms,0.9.5.v200911191123-20404,"com.android.ide.eclipse.ddms",1265720720938
+started,bundle,com.android.ide.eclipse.adt,0.9.5.v200911191123-20404,"com.android.ide.eclipse.adt",1265720722019
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1265720722720
+started,bundle,org.eclipse.core.filesystem,1.2.0.v20090507,"org.eclipse.core.filesystem",1265720722920
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.0.v20090513-2000,"org.eclipse.ltk.core.refactoring",1265720723011
+started,bundle,org.eclipse.ltk.ui.refactoring,3.4.100.v20090604,"org.eclipse.ltk.ui.refactoring",1265720723031
+error,log,,,"Unhandled event loop exception",1265720740305
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1265720865816
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1265720868149
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1265720869591
+closed,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1265720869872
+stopped,bundle,org.eclipse.mylyn.ide.ant,3.3.0.v20091015-0500-e3x,"org.eclipse.mylyn.ide.ant",1265720871454
+stopped,bundle,org.eclipse.ant.ui,3.4.1.v20090901_r351,"org.eclipse.ant.ui",1265720871584
+stopped,bundle,org.eclipse.compare.win32,1.0.0.I20090430-0408,"org.eclipse.compare.win32",1265720871694
+stopped,bundle,org.eclipse.mylyn.java.tasks,3.3.0.v20091015-0500-e3x,"org.eclipse.mylyn.java.tasks",1265720871724
+stopped,bundle,org.eclipse.mylyn.java.ui,3.3.0.v20091015-0500-e3x,"org.eclipse.mylyn.java.ui",1265720871774
+stopped,bundle,com.android.ide.eclipse.adt,0.9.5.v200911191123-20404,"com.android.ide.eclipse.adt",1265720871774

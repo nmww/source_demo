@@ -1,0 +1,28 @@
+2011年1月第一版
+清华大学出版社
+林城 著
+
+adb
+adb -s emulator-5556 install heloWorld.apk
+adb install helloWorld.apk
+
+adb devices
+adb get-stae 服务器状态
+adb get-serialno 取得模拟器执行序号
+
+/data/data 目录找package名称
+移除需要使用
+adb uninstall com.example.android.helloWorld
+
+adb push 传到sdcard
+	adb push TestAndroid.PNG /sdcard
+adb pull 相反
+
+adb forward tcp:6100 tcp:7100 修改TCP通信端口为7100
+
+adb forward tcp:6100 tcp:logd TCP通信端口转到Linux操作系统的一个抽象接口
+
+adb logcat 调试记录
+adb bugreport 全部错误信息
+
+ 

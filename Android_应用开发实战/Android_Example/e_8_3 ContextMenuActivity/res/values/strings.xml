@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ContextMenuActivity!</string>
+    <string name="app_name">e_8_3 ContextMenuActivity</string>
+<string name="menu_dialog1">CONTEXT_ITEM_ID1</string>
+<string name="menu_dialog2">CONTEXT_ITEM_ID2</string>
+</resources>

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.specification.name,sysinfo,,,"Java Platform API Specification",1265721599348
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1265721599348
+java.specification.version,sysinfo,,,"1.6",1265721599348
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1265721599348
+java.version,sysinfo,,,"1.6.0_17",1265721599348
+java.vm.info,sysinfo,,,"mixed mode",1265721599348
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1265721599348
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1265721599348
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1265721599348
+java.vm.specification.version,sysinfo,,,"1.0",1265721599348
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1265721599348
+java.vm.version,sysinfo,,,"14.3-b01",1265721599348
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1265721599468
+started,bundle,org.eclipse.jdt.core,3.5.1.v_972_R35x,"org.eclipse.jdt.core",1265721599588
+started,bundle,org.eclipse.team.core,3.5.0.I20090527-0620,"org.eclipse.team.core",1265721599598
+started,bundle,org.eclipse.jsch.core,1.1.100.I20090430-0408,"org.eclipse.jsch.core",1265721600169
+started,bundle,org.eclipse.team.cvs.core,3.3.200.I20090430-0408,"org.eclipse.team.cvs.core",1265721600169
+started,bundle,org.eclipse.team.ui,3.5.0.I20090430-0408,"org.eclipse.team.ui",1265721600219
+started,bundle,org.eclipse.equinox.p2.updatesite,1.0.100.v20090525,"org.eclipse.equinox.p2.updatesite",1265721600860
+started,bundle,org.eclipse.team.cvs.ui,3.3.201.R35x_v20090826-0905,"org.eclipse.team.cvs.ui",1265721601010
+started,bundle,org.eclipse.jdt.core.manipulation,1.3.0.v20090603,"org.eclipse.jdt.core.manipulation",1265721601100
+started,bundle,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui",1265721601160
+started,bundle,com.android.ide.eclipse.ddms,0.9.5.v200911191123-20404,"com.android.ide.eclipse.ddms",1265721601321
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1265721601391
+error,log,,,"loadAndParseRClass: failed to find manifest package for project WebViewExample",1265721601651

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SharedPreferencesEx02!</string>
+    <string name="app_name">e_9_2 SharedPreferencesEx02</string>
+<string name="app_fullname">Your Name:</string>
+<string name="app_mobile">Your Mobile Pbone Number:</string>
+</resources>

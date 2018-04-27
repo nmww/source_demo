@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.example.android.layout01"
+      android:versionCode="1"
+      android:versionName="1.0.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:label="@string/app_name" android:name="LayoutSample">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="FrameSampleActivity" android:label="@string/app_name_frame"></activity>
+        <activity android:name="LinearSampleActivity" android:label="@string/app_name_linear"></activity>
+        <activity android:name="RelativeSampleActivity" android:label="@string/app_name_relative"></activity>
+        <activity android:name="TableSampleActivity" android:label="@string/app_name_table"></activity>
+        <activity android:name="AbsoluteSampleActivity" android:label="@string/app_name_absolute"></activity>
+    </application>
+</manifest>
+ 

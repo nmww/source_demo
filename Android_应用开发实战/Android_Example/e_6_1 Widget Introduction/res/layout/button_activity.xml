@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:id="@+id/TableLayout01" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_gravity="center" 
+	android:orientation="vertical">
+    	<Button android:id="@+id/Button01" 
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+    		android:text="@string/app_pushme"/>
+    	<ToggleButton android:id="@+id/ToggleButton01" 
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content"/>
+    	<ImageButton android:id="@+id/ImageButton01" 
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+    		android:src="@drawable/title"/>
+    	<CheckBox android:id="@+id/CheckBox01" 
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+    		android:text="@string/app_check_eg"/>
+    	<CheckBox android:id="@+id/CheckBox02" 
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+    		android:text="@string/app_check_jp"/>
+    	<Button android:id="@+id/Button02" 
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+    		android:text="@string/app_checkbox"/>
+    	<RadioGroup android:id="@+id/RadioGroup01" 
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+    		android:orientation="horizontal">
+        	<RadioButton android:id="@+id/RadioButton01" 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="@string/app_man"/>
+        	<RadioButton android:id="@+id/RadioButton02" 
+        		android:layout_width="wrap_content" 
+        		android:layout_height="wrap_content" 
+        		android:text="@string/app_female"/>
+		</RadioGroup>
+		<Button android:id="@+id/Button03" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="@string/app_radiobutton"/>	
+		<TextView android:id="@+id/TextView01" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" android:text="显示按钮的结果"/>		
+</TableLayout>

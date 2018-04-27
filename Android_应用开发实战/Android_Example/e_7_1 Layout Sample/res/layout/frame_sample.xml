@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/FrameLayout01" 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_height="fill_parent" 
+	android:layout_width="fill_parent"> 
+  	<AnalogClock android:id="@+id/AnalogClock01" 
+  		android:layout_gravity="center_horizontal" 
+  		android:layout_width="fill_parent" 
+  		android:layout_height="fill_parent">
+  	</AnalogClock>
+  	<DigitalClock android:id="@+id/DigitalClock01" 
+  		android:layout_width="fill_parent" 
+  		android:layout_height="fill_parent" 
+  		android:layout_gravity="left">
+  	</DigitalClock>
+</FrameLayout>

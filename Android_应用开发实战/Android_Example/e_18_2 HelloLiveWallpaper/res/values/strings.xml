@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HelloLiveWallpaper!</string>
+    <string name="app_name">e_18_2 HelloLiveWallpaper</string>
+    <string name="wallpaper_settings">HelloLiveWallpaper Settings</string>
+  	<string name="settings">Settings</string>
+  	<string name="settings_title">Select speed Level</string>
+  	<string name="settings_summary">Choose a speed effect level</string>
+  	<string name="preference_key">speedLevel</string>
+  	<string name="description">Speed effect wallpaper</string>
+</resources>

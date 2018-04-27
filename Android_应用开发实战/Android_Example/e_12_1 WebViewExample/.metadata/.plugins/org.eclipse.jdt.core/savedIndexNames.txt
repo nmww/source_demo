@@ -1,0 +1,2 @@
+INDEX VERSION 1.126+C:\android-SDK\at_Example\10_1 WebViewExample\.metadata\.plugins\org.eclipse.jdt.core
+3093933428.index

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+locale,sysinfo,,,"zh_TW",1265720705656
+processors,sysinfo,,,"1",1265720705656
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1265720705656
+java.runtime.version,sysinfo,,,"1.6.0_17-b04",1265720705656
+java.specification.name,sysinfo,,,"Java Platform API Specification",1265720705656
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1265720705656
+java.specification.version,sysinfo,,,"1.6",1265720705656
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1265720705656
+java.version,sysinfo,,,"1.6.0_17",1265720705656
+java.vm.info,sysinfo,,,"mixed mode",1265720705656
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1265720705656
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1265720705656
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1265720705656
+java.vm.specification.version,sysinfo,,,"1.0",1265720705656
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1265720705656
+java.vm.version,sysinfo,,,"14.3-b01",1265720705656
+started,bundle,org.eclipse.equinox.p2.extensionlocation,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.extensionlocation",1265720705786
+started,bundle,org.eclipse.equinox.p2.artifact.repository,1.0.101.R35x_v20090721,"org.eclipse.equinox.p2.artifact.repository",1265720706086
+started,bundle,org.eclipse.equinox.p2.publisher,1.0.0.v20090527-1812,"org.eclipse.equinox.p2.publisher",1265720706357
+started,bundle,org.eclipse.equinox.p2.touchpoint.eclipse,1.0.101.R35x_20090820-1821,"org.eclipse.equinox.p2.touchpoint.eclipse",1265720706457
+started,bundle,org.eclipse.jsch.core,1.1.100.I20090430-0408,"org.eclipse.jsch.core",1265720707769
+started,bundle,org.eclipse.team.cvs.core,3.3.200.I20090430-0408,"org.eclipse.team.cvs.core",1265720707809
+started,bundle,org.eclipse.team.ui,3.5.0.I20090430-0408,"org.eclipse.team.ui",1265720708620
+started,bundle,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console",1265720708910
+started,bundle,org.eclipse.team.cvs.ui,3.3.201.R35x_v20090826-0905,"org.eclipse.team.cvs.ui",1265720709291

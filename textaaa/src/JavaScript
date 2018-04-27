@@ -1,0 +1,16 @@
+
+//手机屏幕的密度分为低密度(240*320)/中密度(320*480)和高密度(480*800).通过
+//window.devicePixelRatio属性可以获得当前手机屏幕的密度类型.
+//如果该属性值为1.5表示高密度;1为中密度;075表示低密度. 
+ if (window.devicePixelRatio == 1.5)
+ {
+ 	alert("高密度屏幕");
+ }
+ else if (window.devicePixelRatio == 1)
+ {
+ 	alert("中密度屏幕");
+ }
+ else if (window.devicePixelRatio == 0.75)
+ {
+ 	alert("低密度屏幕");
+ }

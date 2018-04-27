@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tablayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/alpha_00"
+        android:freezesText="true"
+        android:gravity="center"
+        android:height="20dip"
+        android:lines="1"
+        android:text="tab1"
+        android:textColor="@android:color/white" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/alpha_00"
+        android:gravity="center"
+        android:height="20dip"
+        android:lines="1"
+        android:text="tab2"
+        android:textColor="@android:color/white" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/alpha_00"
+        android:gravity="center"
+        android:height="20dip"
+        android:lines="1"
+        android:text="tab3"
+        android:textColor="@android:color/white" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tab4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/alpha_00"
+        android:gravity="center"
+        android:height="20dip"
+        android:lines="1"
+        android:text="tab4"
+        android:textColor="@android:color/white" >
+    </TextView>
+
+</LinearLayout>

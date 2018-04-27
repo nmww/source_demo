@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/1000phone/!svn/ver/428/android/trunk/projects/samples/Animation/Animation7_ViewFlipper/res/anim
+END
+left_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/1000phone/!svn/ver/428/android/trunk/projects/samples/Animation/Animation7_ViewFlipper/res/anim/left_in.xml
+END
+left_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/1000phone/!svn/ver/428/android/trunk/projects/samples/Animation/Animation7_ViewFlipper/res/anim/left_out.xml
+END
+right_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/1000phone/!svn/ver/428/android/trunk/projects/samples/Animation/Animation7_ViewFlipper/res/anim/right_in.xml
+END
+right_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/1000phone/!svn/ver/428/android/trunk/projects/samples/Animation/Animation7_ViewFlipper/res/anim/right_out.xml
+END

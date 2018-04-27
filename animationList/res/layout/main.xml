@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:text="通过事件触发" android:id="@+id/TextView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		</TextView>
+	<ImageView android:id="@+id/ImageView01" android:background="@anim/test"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+	</ImageView>
+	<TextView android:text="自动触发" android:id="@+id/TextView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		</TextView>
+	<ProgressBar android:id="@+id/ProgressBar01" style="@style/animStyle"
+		android:layout_width="128px" android:layout_height="128px"></ProgressBar>
+
+</LinearLayout>

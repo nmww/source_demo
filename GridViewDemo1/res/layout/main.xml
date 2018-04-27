@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#22ff0000"
+    android:orientation="horizontal" >
+       
+    <ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="400dp"
+    android:fadeScrollbars="true"
+    android:background="#1100ff00"
+    >
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="400dp"
+    android:background="#989898"
+    android:orientation="horizontal" >
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+        android:columnWidth="90dp"
+        android:gravity="center"
+        android:horizontalSpacing="100dp"
+        android:numColumns="1"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" />
+
+    <GridView
+        android:id="@+id/gridview1"
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+        android:columnWidth="90dp"
+        android:gravity="center"
+        android:horizontalSpacing="100dp"
+        android:numColumns="1"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" >
+    </GridView>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

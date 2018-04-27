@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">e_7_1 Layout Sample</string>
+<string name="app_name_absolute">e_7_1 Absolute Layout</string>
+<string name="app_name_frame">e_7_1 Frame Layout</string>
+<string name="app_name_linear">e_7_1 Linear Layout</string>
+<string name="app_name_relative">e_7_1 Relative Layout</string>
+<string name="app_name_table">e_7_1 Table Layout</string>
+</resources>
